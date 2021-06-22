@@ -1,0 +1,16 @@
+@mixin button-blue {
+  background-color: #0282F9;
+  padding: 10px 20px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  &:active{
+    color: #0282F9;
+    background-color: #FFFFFF;
+  };
+  &:hover{
+    border: 1px solid #FFFFFF
+  };
+}
